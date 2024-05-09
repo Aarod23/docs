@@ -25,13 +25,7 @@
     "name": "Community",
     "url": "https://discord.gg/MqdGcRvm"
   },
-  "anchors": [
-		{
-			"name": "Community",
-			"icon": "discord",
-			"url": "https://discord.gg/MqdGcRvm"
-		}
-	],
+ 
   "navigation": [
     { 
       "group": "Documentation",
