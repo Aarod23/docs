@@ -30,7 +30,8 @@
     { 
       "group": "Documentation",
       "pages": [
-        "quickstart"
+        "quickstart",
+        "frequentquestions"
 
       ]
     },
