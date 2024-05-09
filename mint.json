@@ -36,9 +36,8 @@
     { 
       "group": "Documentation",
       "pages": [
-        "gettingstarted",
-        "frequentquestions",
-        "troubleshooting",
+        "quickstart",
+
       ]
     },
     {
