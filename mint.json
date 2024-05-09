@@ -1,11 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Boomerang",
+  "name": "ERLCHelper",
   "logo": {
-    "dark": "/combination.svg",
-    "light": "/combination.svg"
+    "dark": "/dark.svg",
+    "light": "/light.svg"
   },
-  "favicon": "/logomark.svg",
   "colors": {
     "primary": "#0d6793",
     "light": "#075ac9",
