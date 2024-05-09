@@ -45,7 +45,8 @@
         {
           "group": "Miscellaneous",
           "pages": [
-            "miscellaneous/domains"
+            "miscellaneous/tos",
+            "miscellaneous/privacypolicy"
           ]
         }
       ],
