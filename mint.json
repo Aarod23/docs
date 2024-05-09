@@ -38,7 +38,8 @@
     {
           "group": "Features",
           "pages": [
-            "features/api-commands"
+            "features/api-commands",
+            "features/discordchecks"
           ]
         },
         {
