@@ -5,10 +5,23 @@ description: 'Learn more about our API commands that you can use to manage your 
 
 With the API commands feature you can manage your ERLC private server with ease via Remote Server Management. With our innovative ERLC commands you can complete all your moderation from the home of your Discord server using the ERLC API. With a simple click ERLCHelper can manage your server with a simple command.
 
+<Tabs>
+  <Tab title="Configuration Step One">
+    To configure the API commands  run `/config` > `Set API Key` and paste your ERLC private server API Key. You must have the API gampepass in game purchased for your private server. The API key can be seen in the ERLC 
+    private server settings and can only be accessed by the server owner.
+  </Tab>
+  <Tab title="Configuration Step Two">
+    Then, configure the `Logging Channel` this is where all the `/erlc command` logs will go into with information on who ran the command, what command they ran, who they ran it on, and when they ran the command as remove 
+    server management. We highly suggest enabling and configuring this feature to ensure you know everything that is going on.
+  </Tab>
+
+</Tabs>
+
+
 Command | Description | Permission
 --- | --- | ---
 `/erlc players` | View all the players in your ERLC server, optionally, a player with a specific callsign. | Staff Permission
 `/erlc serverinfo` | View the server information such as the name, code, queue, playercount, and other information. | Staff Permission
 `/erlc modcalls` | View the server modcalls with information on who called, when they called, and which moderator answered. | Staff Permission
-`/erlc logs` | View all the command logs in the ERLC server, optionally, command logs for a specific roblox username.
+`/erlc logs` | View all the command logs in the ERLC server, optionally, command logs for a specific roblox username. | Staff Permission
 `/erlc command`| Run any command as Remote Server Management. Remove Server Management has co owner permissions in game. | Management Permission
