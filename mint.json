@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "ERLCHelper",
   "logo": {
-    "dark": "logo.svg",
-    "light": "logo.svg"
+    "dark": "logo.png",
+    "light": "logo.png"
   },
-  "favicon": "logo.svg",
+  "favicon": "logo.png",
   "colors": {
     "primary": "#62C75E",
     "light": "#62C75E",
