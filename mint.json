@@ -39,7 +39,8 @@
           "group": "Features",
           "pages": [
             "features/api-commands",
-            "features/discordchecks"
+            "features/discordchecks",
+            "features/serverstatus"
           ]
         },
         {
