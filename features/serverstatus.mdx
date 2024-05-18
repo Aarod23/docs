@@ -1,4 +1,42 @@
 ---
 title: 'Server Status'
-description: 'Learn more about using our server status module to provide your community live information about the current in-game playercount, queue, etc...'
+description: 'Discover how to use our server status module to keep your community updated with live information about current in-game player count, queue status, and more.'
+
 ---
+
+The Server Status module offers a customizable embed builder tailored to your needs. This tool lets you integrate set variables connected to the PRC API, allowing you to showcase real-time data like player count, queue status, and other pertinent information, keeping your community engaged and informed.
+
+<Tabs>
+  <Tab title="Configuration Step One">
+    To set up the Server Status features, navigate to `/config`, then choose `Select a module to configure`. Click on the `Server Status` feature to begin configuring it.
+  </Tab>
+  <Tab title="Configuration Step Two">
+    Specify the `Message ID` and `Webhook URL`. If you want to add the server status module to an existing message, input its Message ID (you can get this by right-clicking the message and selecting "copy message id"). Paste the message ID into the Set Message ID modal after clicking the Set Message ID button. If you don't have a message to add it to, you can create one! Utilize a third-party service like [discohook](https://discohook.org/) to craft an embed (note: embeds created in discohook won't be updated by ERLCHelper).
+  </Tab>
+  <Tab title="Configuration Step Three">
+    Design your embed! Click the `Embed Builder` button and use our unique embed builder to customize the embed. This allows you to provide real-time data using the PRC API. You can utilize the variables listed below to display information fetched from the PRC API.
+  </Tab>
+</Tabs>
+
+<h2> Variable List </h2>
+
+| Variable      | Description                                                              |
+| ------------- | ------------------------------------------------------------------------- |
+| {playercount} | This fetches the current player count in-game.                           |
+| {queuecount}  | Get the in-game queue count.                                             |
+| {servername}  | This fetches the server name in-game.                                    |
+| {maxplayers}  | This fetches the maximum player count in-game.                           |
+| {joinkey}     | This fetches the server join key in-game.                                |
+| {teambalance} | This checks if team balance is enabled/disabled in-game and outputs it.  |
+| {timestamp}   | This fetches the last updated timestamp that the embed was last updated. |
+
+
+
+
+
+
+
+
+
+
+
